@@ -1,0 +1,117 @@
+a {
+	color: #7F7F7F;
+	font: 12pt "Roboto", sans-serif, monospace;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.SiteNav {
+	background-color: #EFEFEF;
+	border: 1px solid #DFDFDF; /*FFB0B0*/
+	/*border-bottom-color: #3A0000;*/
+	border-radius: 4px;
+	/*border-style: solid none solid none; */
+	color: #000000; /*FFFFFF*/
+	font: 18pt "Roboto", sans-serif;
+	margin: 0% 0.3125%;
+	padding: 0.390625% 5.625%;
+	text-decoration: none;
+}
+
+a.SiteNav:hover {
+	background-color: #FFFFFF;
+	border-color: #EFEFEF;
+}
+
+body {
+	background-color: #F8F8F8; /* #5073A0 */
+	background-image: url("BackgroundNoise1.png");
+	background-repeat: repeat;
+	font: 12pt "Roboto", sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+#FooterDisclaimer {
+	text-align: center;
+	font: 8pt "Roboto", sans-serif;
+	padding: 0% 0% 2% 0%;
+}
+
+#FooterLinks {
+	color: #000000;
+	left: 0%;
+	margin: 0% 2.5% 0% 2.5%;
+	padding: 3.125% 0% 1.5625% 0%;
+	text-align: center;
+}
+
+h1 {
+	font: 36pt "Roboto", sans-serif;
+	margin: 0% 5% 0% 0%;
+	padding: 0%;
+	text-align: right;
+}
+
+hr {
+	border: 2px none #AFAFAF;
+	border-style: solid none none none;
+	margin-left: 4%;
+	margin-right: 1%;
+	text-align: right;
+	width: 95%;
+}
+
+hr.HeadlineDivider {
+	margin-top: 0%;
+	padding: 0%;
+}
+
+#PageBody {
+	/*background-color: #D8E6FF; /* #506390 */
+	border: 2px solid #AFAFAF;
+	border-radius: 8px;
+	border-style: none solid none solid;
+	color: #000000;
+	font: 24pt "Roboto", sans-serif;
+	margin: 0% 5%;
+	padding: 0% 2.5%;
+	text-align: center;
+}
+
+#LogoLink {
+	display: block;
+	visibility: hidden;
+}
+
+p {
+	opacity: 1;
+	text-align: justify;
+	white-space: pre-wrap;
+}
+
+p.NoMargin {
+	margin: 0%;
+}
+
+#SiteLogo {
+	border: 0px none #000000;
+	margin: 3.125% 0% 0% 5%;
+	padding: 0%;
+	visibility: visible;
+}
+
+#SiteNavHead {
+	margin: 0% 0%;
+	padding: 2.5% 0%;
+	text-align: center;
+}
+
+.SmallBodyText {
+	font-size: 12pt;
+	padding: 0% 0% 1.25% 0%;
+}
